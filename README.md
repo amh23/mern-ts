@@ -4,28 +4,28 @@ The project is MERN stack starter with typescript. The root folder is **mern-ts-
 includes **backend** and **frontend** folder. First of All, create a README.md and .gitigonre files in
 the root folder.
 
-- Item 1 In the backend foler, `npm init` and the command asks a series of options and you need to think
+- In the backend foler, `npm init` and the command asks a series of options and you need to think
   **type** and the default value is **commonjs** but you can choose **module**. ES6 is used in the project.
 
-- Item 2 Create a **.env** file and add nessecessary variables such as mongod uri, pepper value are added. This file
+- Create a **.env** file and add nessecessary variables such as mongod uri, pepper value are added. This file
   must be added in the .gitigore file.
 
-- Item 2 Install TypeScript and related type definitions.
+- Install TypeScript and related type definitions.
   `npm install --save-dev typescript @types/node`
 
-- Item 3 Install Express and its types
+- Install Express and its types
 
 ```typescript
 npm install express
 npm install --save-dev @types/express
 ```
 
-- Item 4 Generate Typescript configuration file
+- Generate Typescript configuration file
   `npx tsc --init`
   In the **tsconfig.json** file, uncomment `"outDir": "./dist",` , ` "rootDir": "./src"` and ` "types": ["node"]`
   in compiler options.
 
-- Item 4 Install **ts-node-dev** which is a development tool that combines **ts-node** and **nodemon**
+- Install **ts-node-dev** which is a development tool that combines **ts-node** and **nodemon**
   to automatically restart Typescript Node.js application when files change.
   `npm install --save-dev ts-node-dev`
   To run `npm run build` and `npm run start` command in parallel, install
@@ -41,13 +41,13 @@ npm install --save-dev @types/express
 ```
 To run the backend ``npm run dev``.
 
-- Item 5 Install **cors**, **dotenv** and **mongoose** which are used in production
+- Install **cors**, **dotenv** and **mongoose** which are used in production
   `npm install cors dotenv mongoose`
 
 Install their type definitions which is used for development dependencies.
 ``npm install --save-dev @types/cors @types/dotenv @types/node @types/mongoose`
 
-- Item 6 Create `server.ts` file in the src folder and insert the following code.
+- Create `server.ts` file in the src folder and insert the following code.
 
 ```
 import express from 'express';
@@ -87,17 +87,17 @@ app.listen(PORT, () => {
 
 ## How To Set Up Frontend React Project with Vit
 
-- Item 1 To install vit, run `npm create vite@latest` command.
+- To install vit, run `npm create vite@latest` command.
 
-- Item 2 Install Tailwind CSS
+- Install Tailwind CSS
 
 `npm install tailwindcss @tailwindcss/vite`
 
-- Item 3 Import Tailwind CSS to App.css
+- Import Tailwind CSS to App.css
 
 `@import "tailwindcss";`
-- Item 4 Start using Tailwind CSS in index.html file
+- Start using Tailwind CSS in index.html file
 
 Insert `<link href="/src/App.css" rel="stylesheet">` in the header of the HTML file.
 
-- Item 5 Run the project with this command ``npm run dev``.
+- Run the project with this command ``npm run dev``.
