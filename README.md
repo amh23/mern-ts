@@ -1,10 +1,8 @@
-# How To Set Up Backend With NPM, Nodejs, Mongoose
+## How To Set Up Backend With NPM, Nodejs, Mongoose
 
-### The project is MERN stack starter with typescript. The root folder is **mern-ts-starter** and it
-
-### includes **backend** and **frontend** folder. First of All, create a README.md and .gitigonre files in
-
-### the root folder.
+The project is MERN stack starter with typescript. The root folder is **mern-ts-starter** and it
+includes **backend** and **frontend** folder. First of All, create a README.md and .gitigonre files in
+the root folder.
 
 - Item 1 In the backend foler, `npm init` and the command asks a series of options and you need to think
   **type** and the default value is **commonjs** but you can choose **module**. ES6 is used in the project.
@@ -41,6 +39,7 @@ npm install --save-dev @types/express
     "dev": "concurrently \"npm run build\" \"npm run start\" "
     }
 ```
+To run the backend ``npm run dev``.
 
 - Item 5 Install **cors**, **dotenv** and **mongoose** which are used in production
   `npm install cors dotenv mongoose`
@@ -86,18 +85,19 @@ app.listen(PORT, () => {
 });
 ```
 
-# How To Set Up Frontend React Project with Vit
+## How To Set Up Frontend React Project with Vit
 
-### To install vit, run `npm create vite@latest` command.
+- Item 1 To install vit, run `npm create vite@latest` command.
 
-### Install Tailwind CSS
+- Item 2 Install Tailwind CSS
 
 `npm install tailwindcss @tailwindcss/vite`
 
-### Import Tailwind CSS to App.css
+- Item 3 Import Tailwind CSS to App.css
 
 `@import "tailwindcss";`
-
-### Start using Tailwind CSS in index.html file
+- Item 4 Start using Tailwind CSS in index.html file
 
 Insert `<link href="/src/App.css" rel="stylesheet">` in the header of the HTML file.
+
+- Item 5 Run the project with this command ``npm run dev``.
