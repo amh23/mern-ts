@@ -45,7 +45,7 @@ To run the backend ``npm run dev``.
   `npm install cors dotenv mongoose`
 
 - Install their type definitions which is used for development dependencies.
-``npm install --save-dev @types/cors @types/dotenv @types/node @types/mongoose`
+``npm install --save-dev @types/cors @types/dotenv @types/node @types/mongoose``
 
 - Create `server.ts` file in the src folder and insert the following code.
 
