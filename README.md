@@ -1,6 +1,6 @@
 ## How To Set Up Backend With NPM, Nodejs, Mongoose
 
-The project is MERN stack starter with typescript. The root folder is **mern-ts-starter** and it
+The project is MERN stack starter with typescript. The root folder is **mern-ts** and it
 includes **backend** and **frontend** folder. First of All, create a README.md and .gitigonre files in
 the root folder.
 
